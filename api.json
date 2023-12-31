@@ -1,0 +1,38 @@
+[
+    {
+      "precio": 500,
+      "id": 1,
+      "title": "Computador Portatil",
+      "thumbnailUrl": "https://picsum.photos/id/40/600"
+    },
+    {
+      "precio": 300,
+      "id": 2,
+      "title": "Viajes",
+      "thumbnailUrl": "https://picsum.photos/id/10/600"
+    },
+    {
+      "precio": 100,
+      "id": 3,
+      "title": "Libros",
+      "thumbnailUrl": "https://picsum.photos/id/20/600"
+    },
+    {
+      "precio": 50,
+      "id": 4,
+      "title": "Mugs",
+      "thumbnailUrl": "https://picsum.photos/id/30/600"
+    },
+    {
+      "precio": 10,
+      "id": 5,
+      "title": "Accesorios para Mascotas",
+      "thumbnailUrl": "https://picsum.photos/id/40/600"
+    },
+    {
+      "precio": 150,
+      "id": 6,
+      "title": "Cruceros",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    }
+  ]
