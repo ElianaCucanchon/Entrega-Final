@@ -2,7 +2,7 @@
 function guardarDatosRegistro(event) {
   event.preventDefault();
 
- 
+
   const registerForm = event.target;
 
   // Se necesita obtener valores de los campos de registro
@@ -30,9 +30,9 @@ function guardarDatosRegistro(event) {
       const existingRegistro = event.target.result;
       if (existingRegistro) {
         console.log('La clave ya existe en IndexedDB');
-        // Aqui se manejara el caso de registro duplicado, mostrando un mensaje de error, etc.
+        // Aqui se manejara el caso de registro duplicado, mostrando un mensaje de error, etc
 
-        
+
       } else {
         // Se crea un objeto con datos de registro
         const registro = {
@@ -49,10 +49,10 @@ function guardarDatosRegistro(event) {
         addRequest.onsuccess = function (event) {
           // Aqui mostraremos notificación "Registro Exitoso"
           Toastify({
-            text: "Registro Exitoso, Gracias por preferirnos",
-            duration: 3000,
-            gravity: "top", 
-            position: "right", 
+            text: "Registro Exitoso, Gracias por preferirnos. Por favor Ingrese en Iniciar sesion",
+            duration: 5000,
+            gravity: "top",
+            position: "right",
             style: {
               background: "grey",
             },
