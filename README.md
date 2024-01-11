@@ -1,4 +1,4 @@
-# Entrega-Fina Carrito de compras
+# Entrega-Final Carrito de compras
 # Tienda de Ropa Online
 Bienvenido al repositorio de nuestra Tienda de Ropa Online. Este proyecto es una página web interactiva diseñada para ofrecer una experiencia de compra en línea fluida y atractiva, con funcionalidades implementadas en JavaScript.
 
