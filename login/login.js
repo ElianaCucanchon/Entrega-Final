@@ -19,7 +19,7 @@ function loginSesion(event) {
       const registro = event.target.result;
       if (registro && registro.contrasena === contrasena) {
         
-        window.location.href = '/pagina/index.html';
+        window.location.href = '/Entrega-Final/pagina/index.html';
       } else {
         // Login sesión erroneo
         errorP.innerHTML = 'Usuario o contraseña incorrectos';
